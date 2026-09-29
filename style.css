@@ -1,19 +1,10 @@
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.6), 
-                        rgba(0, 0, 0, 0.6)),
-        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zdtLViU_GiyC3RQjcCJWbmbvn9amdi73O-JDfh49EMD6wuaxlKLxaJ-1AzOW2xewnfOt6g&s")
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("https://images.unsplash.com/photo-1500534623283-312aade485b7");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
-
 :root {
     --primary: #6C63FF;
     --dark: #151526;
